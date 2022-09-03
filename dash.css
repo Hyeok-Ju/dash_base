@@ -69,6 +69,25 @@ h5 {
     font-size: 110%;
     margin: 3px 0px;
 }
+#service-row {
+    display: flex;
+    flex-direction: row;
+}
+#service-col1 {
+    flex: 2;
+}
+#service-col2 {
+    flex: 1;
+}
+.dash-graph {
+    width: 100%;
+    height: 50vh;
+}
+
+.dash-geometry-graph {
+    width: 100%;
+    height: 65vh;
+}
 
 /* tab2 - status */
 #status {
@@ -81,9 +100,20 @@ h5 {
 .row1 {
     display: flex;
 }
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
 .col1, .col2 {
     flex: 1;
 }
+
+#operating-col {
+    height: 65vh;
+}
+
 .fade-alert-show2 {
     margin-top: 3%;
     margin-left: 3%;
@@ -122,4 +152,13 @@ h5 {
 }
 #num2-row1 > div > div, #num2-row2 > div > div {
     flex: 1;
+}
+
+.js-plotly-plot {
+    width: 100%;
+    height: 100%;
+}
+.js-plotly-plot > iframe{
+    width: 100%;
+    height: 100%;
 }
